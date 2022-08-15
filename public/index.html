@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <form
+      action="send"
+      id="contact-form"
+      method="POST"
+      enctype="multipart/form-data"
+    >
+      <h1>Welcome to NodeMailer Tutorial</h1>
+      <p>Here's a simple Contact Form below. Check repo to see full code</p>
+      <h2>Contact Us</h2>
+      <p>
+        Let us know what you think in order to provide better service, please do
+        not hesitate to give us your feedback. Thank you
+      </p>
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" />
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" />
+      <label for="subject">Subject</label>
+      <input type="text" name="subject" id="subject" />
+      <label for="message">Message</label>
+      <input type="text" name="message" id="message" />
+      
+      <input type="submit" value="Submit" />
+    </form>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
